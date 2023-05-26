@@ -21,16 +21,16 @@ class Employee(Resource):
     # corresponds to the GET request.
     # this function is called whenever there
     # is a GET request for this resource
-    def get(self):
-        connection = pymysql.connect(host='localhost', user='root', password='', database='HyraxEmpDB')
-        cursor = connection.cursor(pymysql.cursors.DictCursor)
-        sql = "select * from employees"
-        cursor.execute(sql)
-        if cursor.rowcount == 0:
-            return jsonify({'message': 'No Records'})
-        else:
-            employees = cursor.fetchall()
-            return jsonify(employees)
+    # def get(self):
+    #     connection = pymysql.connect(host='localhost', user='root', password='', database='HyraxEmpDB')
+    #     cursor = connection.cursor(pymysql.cursors.DictCursor)
+    #     sql = "select * from employees"
+    #     cursor.execute(sql)
+    #     if cursor.rowcount == 0:
+    #         return jsonify({'message': 'No Records'})
+    #     else:
+    #         employees = cursor.fetchall()
+    #         return jsonify(employees)
         #postgres://employees_u138_user:tbnE5fT3jMNnENCcHAc5y0DrpoeoIpAn@dpg-cho8qlpmbg50pip9mh20-a.oregon-postgres.render.com/employees_u138
 
     # Corresponds to POST request
