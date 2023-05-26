@@ -1,3 +1,3 @@
-from app import app
+from app import Employee, app
 
-app = app()
+app = app(Employee, '/employees')
