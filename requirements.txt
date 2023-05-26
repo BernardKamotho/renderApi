@@ -6,13 +6,13 @@ aniso8601==9.0.1
 backcall==0.2.0
 beautifulsoup4==4.10.0
 blinker==1.4
-Brlapi==0.8.3
-certifi==2020.6.20
-chardet==4.0.0
-click==8.0.3
-colorama==0.4.4
-comm==0.1.2
-command-not-found==0.3
+# # Brlapi==0.8.3
+# certifi==2020.6.20
+# chardet==4.0.0
+# click==8.0.3
+# colorama==0.4.4
+# comm==0.1.2
+# command-not-found==0.3
 configobj==5.0.6
 contextlib2==21.6.0
 cryptography==3.4.8
