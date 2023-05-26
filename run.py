@@ -1,3 +1,3 @@
-from app import Employee
+from app import app
 
-app = Employee()
+app = app()
