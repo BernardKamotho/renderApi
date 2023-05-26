@@ -85,25 +85,25 @@ pymacaroons==0.13.0
 PyMySQL==1.0.2
 PyNaCl==1.5.0
 pyparsing==2.4.7
-pyparted==3.11.7
-pyRFC3339==1.1
-python-apt==2.3.0+ubuntu2
-python-dateutil==2.8.2
-python-debian===0.1.43ubuntu1
-python-magic==0.4.24
-python-xapp==2.2.2
-python-xlib==0.29
-pytz==2022.1
-pyxdg==0.27
-PyYAML==5.4.1
-pyzmq==25.0.1
-reportlab==3.6.8
-requests==2.25.1
-requests-file==1.5.1
-schema==0.7.5
-SecretStorage==3.3.1
-setproctitle==1.2.2
-six==1.16.0
+# pyparted==3.11.7
+# pyRFC3339==1.1
+# python-apt==2.3.0+ubuntu2
+# python-dateutil==2.8.2
+# python-debian===0.1.43ubuntu1
+# python-magic==0.4.24
+# python-xapp==2.2.2
+# python-xlib==0.29
+# pytz==2022.1
+# pyxdg==0.27
+# PyYAML==5.4.1
+# pyzmq==25.0.1
+# reportlab==3.6.8
+# requests==2.25.1
+# requests-file==1.5.1
+# schema==0.7.5
+# SecretStorage==3.3.1
+# setproctitle==1.2.2
+# six==1.16.0
 # soupsieve==2.3.1
 # stack-data==0.6.2
 # systemd-python==234
